@@ -1,0 +1,10 @@
+{
+    "name": "urlize",
+    "version": "0.1.0",
+    "description": "Node urlize",
+    "contributors": [{ "name": "Ilkka Huotari", "email": "ilkkah@gmail.com" }],
+    "homepage": "https://github.com/ile/urlize",
+    "directories" : { "lib" : "./lib" },
+    "main" : "./lib/urlize",
+    "engines": { "node": ">= 0.3.7" }
+}
