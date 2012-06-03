@@ -92,7 +92,7 @@ exports.urlize = (function () {
 	    {'b':'y','l':/[\u0079\u24E8\uFF59\u1EF3\u00FD\u0177\u1EF9\u0233\u1E8F\u00FF\u1EF7\u1E99\u1EF5\u01B4\u024F\u1EFF]/g},
 	    {'b':'z','l':/[\u007A\u24E9\uFF5A\u017A\u1E91\u017C\u017E\u1E93\u1E95\u01B6\u0225\u0240\u2C6C\uA763]/g},
     	{'b':'-','l':/\s+/g},
-    	{'b':'','l':/[^a-zA-Z0-9_\-\(\)]/g},
+    	{'b':'','l':/[^a-zA-Z0-9._\-\(\)]/g},
     	{'b':'-','l':/\-+/g}
 	];
 
