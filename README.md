@@ -1,7 +1,7 @@
 urlize
 ======
 
-An urlize module for Node. Turns URLs into prettier (?), easier to handle URLs.
+An urlize module for Node.js. Turns URLs into prettier (?), easier to handle URLs.
 
 1. Turns everything into lowercase
 - Removes accents: äöå -> aoa
