@@ -5,7 +5,7 @@ An urlize module for Node. Turns URLs into prettier (?), easier to handle URLs.
 
 1. Turns everything into lowercase
 - Removes accents: äöå -> aoa
-- Removes other characters than: a-z . 0-9  _  -  (  ) 
+- Removes other characters than (i.e. keeps the following characters): `a-z . 0-9  _  -  (  ) /`
 
 ##Usage
 
