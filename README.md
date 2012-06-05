@@ -12,6 +12,6 @@ An urlize module for Node.
 npm install git://github.com/ile/urlize.git
 
 
-var urlize = require('urlize').urlize;
+var urlize = require('urlize').urlize; 
 urlize("  ääliö älä lyö, ööliä , (läikkyy)  " ); // aalio-ala-lyo-oolia-(laikkyy)
 
