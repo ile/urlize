@@ -11,6 +11,9 @@ An urlize module for Node. Turns URLs into prettier (?), easier to handle URLs.
 
 npm install git://github.com/ile/urlize.git
 
-> var urlize = require('urlize').urlize;  
-> urlize("  ääliö älä lyö, ööliä , (läikkyy)  " ); // aalio-ala-lyo-oolia-(laikkyy)
+> var urlize = require('urlize').urlize; 
+
+
+> urlize("  ääliö älä lyö, ööliä läikkyy.HTML");  
+> // aalio-ala-lyo-oolia-laikkyy.html
 
