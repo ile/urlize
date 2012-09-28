@@ -18,6 +18,6 @@ npm install git://github.com/ile/urlize.git
 > urlize("  ääliö älä lyö, ööliä läikkyy.HTML");  
 > // aalio-ala-lyo-oolia-laikkyy.html
 
-##Disclaimer
+##Drawbacks
 
 Doesn't handle many foreign characters. 
