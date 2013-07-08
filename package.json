@@ -1,6 +1,10 @@
 {
     "name": "urlize",
-    "version": "0.1.0",
+    "version": "0.1.1",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ile/urlize.git"
+	},
     "description": "Node urlize",
     "contributors": [{ "name": "Ilkka Huotari", "email": "ilkkah@gmail.com" }],
     "homepage": "https://github.com/ile/urlize",
