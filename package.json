@@ -1,11 +1,11 @@
 {
     "name": "urlize",
-    "version": "0.1.1",
+    "version": "0.1.2",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/ile/urlize.git"
 	},
-    "description": "Node urlize",
+    "description": "Convert strings to be used as urls",
     "contributors": [{ "name": "Ilkka Huotari", "email": "ilkkah@gmail.com" }],
     "homepage": "https://github.com/ile/urlize",
     "directories" : { "lib" : "./lib" },
