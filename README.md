@@ -8,7 +8,7 @@ An urlize module for Node.js. Turns a string into a string that can be used more
 - Removes other characters than (i.e. keeps the following characters): `a-z 0-9 . _  -  (  ) /`
 - Trims the string
 
-##Usage
+##usage
 
 npm install git://github.com/ile/urlize.git
 
@@ -18,6 +18,6 @@ npm install git://github.com/ile/urlize.git
 > urlize("  ääliö älä lyö, ööliä läikkyy.HTML");  
 > // aalio-ala-lyo-oolia-laikkyy.html
 
-##Drawbacks
+##drawbacks
 
-Doesn't handle many foreign characters. 
+Doesn't handle many foreign characters. Handles some.
