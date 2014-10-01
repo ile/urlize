@@ -102,7 +102,7 @@ exports.urlize = (function () {
 	        str = str.replace(map[i].l, map[i].b);
 	    }
 
-		str = str.trim();
+		str = str.trim().replace(/[^-a-zA-Z0-9\s]/g, '');
 
 	    return str.toLowerCase();
 	}	
