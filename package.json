@@ -1,14 +1,15 @@
 {
     "name": "urlize",
     "version": "0.2.1",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/ile/urlize.git"
-	},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ile/urlize.git"
+    },
     "description": "Convert strings to be used as urls",
-    "contributors": [{ "name": "Ilkka Huotari", "email": "ilkkah@gmail.com" }],
+    "contributors": [
+        { "name": "Ilkka Huotari", "email": "ilkkah@gmail.com" }
+    ],
     "homepage": "https://github.com/ile/urlize",
-    "directories" : { "lib" : "./lib" },
-    "main" : "./lib/urlize",
+    "main" : "index.js",
     "engine": "node >= 0.4.1"
 }
